@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Projeto Typescript - Node</title>
+	<script src ="js/index.js" defer></script>
+<style>
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background: aquamarine;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.container{
+	align-items: center;
+	background:cornflowerblue;
+	text-align: center;
+	padding: 20px;
+	margin: 50px;
+	align-items: center;
+	border-radius: 25px;
+	width: 700px;
+	height: 300px;
+}
+.container h4{
+font-size: 2em;
+}
+.container #soma{
+	font-size: 0.8em ;
+}
+.container input{
+	border-radius: 25px;
+	width: 200px;
+	height: 50px;
+	font-size: 1,5em;
+}
+.container button{
+	border-radius: 25px;
+	width: 300px;
+	height: 70px;
+	font-size: 1.5em;
+	border: 2px solid black;
+}
+</style>
+</head>
+<body>
+ 	
+<div class="container">
+	<h4>ADICIONE O VALOR: <input id="soma"> </h4>
+    <button id="atualizar-saldo">Atualizar saldo</button>
+    <button id="limpar-saldo">Limpar seu saldo</button>
+    <h1>"Seu saldo é: " <span id="campo-saldo"></span></h1>
+</div>
+</body>
+</html>
